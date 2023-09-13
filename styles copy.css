@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  background-color: rgba(255,255,255,1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding :  0 5% 0 65% ;
+  height: 10vh;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:visited{
+  text-decoration: none;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#big-jumbo {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10vw;
+  /* padding: 0 20%; */
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbo-item {
+  height: 80%;
+  padding: 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbo-item h3{
+  color: #00000045;
+}
+
+.jumbo-item h2{
+  font-size : 3rem;
+}
+
+.jumbo-item p{
+  margin: 3% 0;
+  color: #00000097;
+}
+
+#my-img{
+  height: 75%;
+  /* width: 70%; */
+  border-radius: 50%;
+  border: 12px solid #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.326);
+}
+
+#socmed-list{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.socmed {
+  display: flex;
+  padding-right: 2%;
+}
+
+.socmed a{
+  color: #000;
+  margin-left: 5px;
+}
+
+.socmed a:visited{
+  color: #242424;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 5vh;
+}
