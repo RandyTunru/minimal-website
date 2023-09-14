@@ -105,13 +105,12 @@ main {
 }
 
 #skillsets{
+  width: 100%;
   flex-direction: row;
 }
 
-#sub-skillsets{
+.sub-skillsets{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5vh;
+  flex-basis: 50%;
 }
