@@ -119,3 +119,39 @@ main {
   flex-direction: column;
   flex-basis: 50%;
 }
+
+@media screen and (max-width: 768px){
+  nav {
+    padding :  0 5% 0 20% ;
+    gap: 1vw;
+  }
+
+  #big-jumbo{
+    flex-direction: column;
+    padding: 0 5vw;
+  }
+
+  #content{
+    gap: 2vh;
+  }
+
+  #my-img{
+    height: 20vh;
+  }
+
+  #socmed-list{
+    flex-direction: column;
+  }
+
+  #content{
+    margin-bottom: 0;
+  }
+
+  #skillsets{
+    flex-direction: column;
+  }
+
+  .sub-skillsets{
+    flex-basis: 100%;
+  }
+}
