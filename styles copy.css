@@ -120,7 +120,7 @@ main {
   flex-basis: 50%;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 768px){
   nav {
     padding :  0 5% 0 20% ;
     gap: 1vw;
@@ -136,7 +136,8 @@ main {
   }
 
   #my-img{
-    height: 20vh;
+    width: 20vw;
+    border: 0;
   }
 
   #socmed-list{
